@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 describe('User tests', () => {
-  it('C111 User can log in', () => {
+  it('T22 User can log in', () => {
     cy.wait(1000)
   })
 
