@@ -10,7 +10,7 @@ jobs:
       TESTRAIL_USERNAME: ${{secrets.TESTRAIL_USERNAME}}
       TESTRAIL_PASSWORD: ${{secrets.TESTRAIL_PASSWORD}}
       # the project ID is not that secret
-      TESTRAIL_PROJECTID: 1
+      TESTRAIL_PROJECTID: 2
 
     steps:
       - name: Checkout 🛎
