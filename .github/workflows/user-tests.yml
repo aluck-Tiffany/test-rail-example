@@ -12,7 +12,7 @@ jobs:
       TESTRAIL_USERNAME: ${{secrets.TESTRAIL_USERNAME}}
       TESTRAIL_PASSWORD: ${{secrets.TESTRAIL_PASSWORD}}
       # the project ID is not that secret
-      TESTRAIL_PROJECTID: 2
+      TESTRAIL_PROJECTID: 1
 
     steps:
       - name: Checkout 🛎
@@ -54,7 +54,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           install-command: echo "Already installed"
-          spec: 'cypress/integration/user-tests.js'
+          spec: "cypress/integration/user-tests.js"
         env:
           # pass the run ID from the previous step via an env variable
           TESTRAIL_RUN_ID: ${{ steps.testRail.outputs.runId }}

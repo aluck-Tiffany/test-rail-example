@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('AL Cypress Upload Rail', () => {
+describe('Public site', () => {
   it('C13 AL Cypress Upload Rail', () => {
     cy.wait(10000)
   })
