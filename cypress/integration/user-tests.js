@@ -8,8 +8,9 @@ describe('User tests', () => {
   })
 
   it('C15 User can log out', () => {
+    expect(true).to.equal(true)
     cy.log('in the last test!')
     cy.wait(1000)
-    cy.expect({ name: 'Jane' }).to.eql({ name: 'Jane' })
+    
   })
 })
