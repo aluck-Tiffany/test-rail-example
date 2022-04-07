@@ -1,7 +1,5 @@
 /// <reference types="cypress" />
 
-// import { module } from 'module-package'
-
 describe('User tests', () => {
   it('C14 User can log in', () => {
     cy.wait(1000)
