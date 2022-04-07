@@ -1,7 +1,5 @@
 /// <reference types="cypress" />
 
-const { expect } = require("chai")
-
 // import { module } from 'module-package'
 
 describe('User tests', () => {
